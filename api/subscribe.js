@@ -163,7 +163,7 @@ module.exports = async (req, res) => {
         settings: {
           subject_line: `¡Bienvenido a MetricoWeb, ${firstName || 'nuevo usuario'}! Tu cuenta está lista`,
           from_name: 'MetricoWeb',
-          reply_to: 'info@metricoweb.com',
+          reply_to: 'facundo@iviti.com.ar',
         },
       });
 
