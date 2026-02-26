@@ -21,7 +21,7 @@ const buildWelcomeHTML = (firstName) => `
           <!-- Header -->
           <tr>
             <td style="background-color:#ffffff;padding:32px 40px;text-align:center;border-bottom:1px solid #e5e7eb;">
-              <img src="https://metricoweb.com/wp-content/uploads/2025/10/Isologotipo-Color@0.5x.png" alt="MetricoWeb" width="180" style="display:block;margin:0 auto;" />
+              <img src="https://metricoweb.com/wp-content/uploads/2025/10/Isologotipo-Blanco@0.5x.png" alt="MetricoWeb" width="180" style="display:block;margin:0 auto;" />
             </td>
           </tr>
 
