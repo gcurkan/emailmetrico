@@ -175,8 +175,14 @@ module.exports = async (req, res) => {
       // Enviar
       await mailchimp.campaigns.send(campaign.id);
     } catch (emailError) {
-      console.error('Error sending welcome email:', emailError?.response?.body || emailError.message);
-      // No falla el subscribe si el email falla
+      const emailErr = emailError?.response?.body || emailError.message;
+      console.error('Error sending welcome email:', emailErr);
+      return res.status(200).json({
+        success: true,
+        status: response.status,
+        emailSent: false,
+        emailError: emailErr,
+      });
     }
 
     return res.status(200).json({
