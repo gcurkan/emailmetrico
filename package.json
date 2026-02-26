@@ -1,0 +1,9 @@
+{
+  "name": "emailmetrico",
+  "version": "1.0.0",
+  "description": "API de emails para MetricoWeb - Mailchimp integration",
+  "private": true,
+  "dependencies": {
+    "@mailchimp/mailchimp_marketing": "^3.0.80"
+  }
+}
